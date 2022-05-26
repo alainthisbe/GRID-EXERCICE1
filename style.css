@@ -1,0 +1,45 @@
+body {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25vh auto 40vh auto;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+header{
+
+        grid-column: 1/4;
+        grid-row: 1;
+        background-color: cornflowerblue;
+}
+
+nav{
+
+    grid-column: 1/4;
+    grid-row: 2;
+    background-color: aquamarine;
+}
+
+article{
+
+    grid-column: 1fr;
+    grid-row: 3;
+    color: white;
+    background-color: navy;
+}
+
+footer{
+
+    grid-column: 1/4;
+    grid-row: 4;
+    background-color: wheat;
+}
+
+
